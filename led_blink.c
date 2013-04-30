@@ -3,5 +3,6 @@
 
 int main(void){
   DDRB |= 1 << PINB0;
-
+  while(1){
+    }
 }
