@@ -2,4 +2,6 @@
 #include <util/delay.h>
 
 int main(void){
+  DDRB |= 1 << PINB0;
+
 }
